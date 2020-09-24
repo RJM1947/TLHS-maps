@@ -1,0 +1,7 @@
+19C Boundary Post:  51 deg 28.673 N, 0 deg 19.851E			(51.477883, 0.33085)
+Belhus Stench Pipe: 51 deg 30.867 N, 0 deg 15.929E			(51.51445, 0.265483
+Willow Park 51 deg 33.212N, 0 deg 26.177E				(51.553533, 0.436283)
+Cash’s Well: 51 deg 32.976N, 0 deg 27.055E				(51.5495, 0.450917)
+Grays Town Park Shelter:  51 deg 28.727N, 0 deg 19.691E			(51.478783, 0.328183)
+Grays Town Park Rockery:  51 deg 28.734N, 0 deg 19.831E			(51.4789, 0.330517)
+Grays Riverside Park Paddling Pool: 51 deg 28.237N, 0 deg 19.651E	(51.470617, 0.327517)

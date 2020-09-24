@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thurrock Heritage Map</title>
+    <link rel="stylesheet" href="leaflet.css">
+   <script src="leaflet.js">
+   </script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+    <div id="Features" ></div>;
+    <style> #Features { height: 95vh; width: 99vw}</style>
+    <script>mymap = L.map('Features',{zoomControl:true, maxZoom:19, minZoom:10}).setView([51.55,0.29 ], 11); //centred and zoomed to Thurrock
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(mymap);
+        mymap.attributionControl.addAttribution('<a href = "https://www.landofthefanns.org">Land of the Fanns </a>')
+        mymap.attributionControl.addAttribution('<a href = "https://www.heritagefund.org.uk/">Heritage Lottery Fund </a>')
+    
+    
+  var Marker1 =  L.marker([51.484, 0.326]).bindPopup('Quarry Garden - John Matthews').addTo(mymap);
+  //var Marker2 =  L.marker([51.479104,0.330098]).bindPopup('Grays Park - Julia Cosby').addTo(mymap);
+  //var Marker3 =  L.marker([51.4809359,0.3319564]).bindPopup('Entrance to the HE Brooks Memorial Park - John Matthews').addTo(mymap);
+  //var Marker3A =  L.marker([51.481049,0.3325664]).bindPopup('Shelter in the HE Brooks Memorial Park - John Matthews').addTo(mymap);
+  //var Marker4 =  L.marker([51.480936,0.3322655]).bindPopup('Holocause memorial in the HE Brooks Memorial Park - John Matthews').addTo(mymap);
+  //var Marker5 =  L.marker([51.4809234,0.3326565]).bindPopup('North & South wall to HE Brooks Memorial Park - John Matthews').addTo(mymap);
+  //var Marker6 =  L.marker([51.609385,0.195842]).bindPopup('Queen Anne’s Well, Bedford Park - Lois Amos ').addTo(mymap);
+  //var Marker7 =  L.marker([51.502554,0.280959]).bindPopup('Millard’s Garden - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker8A =  L.marker([51.51067,0.268578]).bindPopup('Ice House at Belhus - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker8B =  L.marker([51.513898,0.26872]).bindPopup('Long Pond at Belhus - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker8C =  L.marker([51.510612,0.270269]).bindPopup('remains of wall for Belhus Park Walled garden - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker9 =  L.marker([51.50646,0.270341]).bindPopup('Sweet Chestnut trees outside of Belhus Park in private garden - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker10 =  L.marker([51.513768,0.284886]).bindPopup('Wood Boundary Ditch/bank in Bonnygate Wood - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker11A =  L.marker([51.506073, 0.277824]).bindPopup('1950s paddling pool, Dilke’s Park - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker11B =  L.marker([51.506798, 0.277701]).bindPopup('Pond in Dilke’s Park - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker11C =  L.marker([51.506618, 0.277559]).bindPopup('Circular feature former rose bed in Dilke’s Park - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker11D =  L.marker([51.506618, 0.277559]).bindPopup('jumping blocks in Dilke’s Park - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker11E =  L.marker([51.50658,0.276402]).bindPopup('Brick pillars and entrance gates to Dilke’s Park - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker12 =  L.marker([51.477883, 0.33085]).bindPopup('19th C Boundary Post - Phil Lobley ').addTo(mymap);
+  //var Marker13 =  L.marker([51.51445, 0.265483]).bindPopup('Belhus Stench pipe - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker14 =  L.marker([51.553533, 0.436283]).bindPopup('Willow Park - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker15A =  L.marker([51.478783, 0.328183]).bindPopup('Grays Town Park Shelter - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker15B =  L.marker([51.54945, 0.450917]).bindPopup('Cash’s Well - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker15C =  L.marker([51.4789, 0.330517]).bindPopup('Grays Town Park Rockery - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker15D =  L.marker([51.470617, 0.327517]).bindPopup('Grays Riverside Park Paddling Pool - Phil Lobley & Julia Cosby').addTo(mymap);
+  //var Marker16 =  L.marker([51.565650,0.216604]).bindPopup('feature from Langtons Gardens - Lisa Lock').addTo(mymap);
+  //var Marker17 =  L.marker([51.479539,0.254480]).bindPopup('High House walled garden - John Matthews').addTo(mymap);
+  //var Marker18 =  L.marker([51.596256,0.286247]).bindPopup('Service staircase at Warley Place - John McLaughlin').addTo(mymap);
+  //var Marker19 =  L.marker([51.612907,0.238854]).bindPopup('Dagnams pillars (done) - John McLaughlin').addTo(mymap);
+  //var Marker20 =  L.marker([51.615649,0.234222]).bindPopup('Cow pond at Dagnams  - John McLaughlin').addTo(mymap);
+  //var Marker21 =  L.marker([51.596207,0.284136]).bindPopup('Alpine Gorge (done)  - Eric Mitchell').addTo(mymap);
+  //var Marker22 =  L.marker([51.595753,0.284821]).bindPopup('Filmy Fern area (done)  - Eric Mitchell').addTo(mymap);
+  //var Marker23 =  L.marker([51.609581,0.195952]).bindPopup('Stone steps - Eric Mitchell').addTo(mymap);
+  //var Marker24 =  L.marker([51.534965,0.235113]).bindPopup('The Bridge at Gaynes Park  - Jill Plater').addTo(mymap);
+  //var Marker25 =  L.marker([51.555963,0.254435]).bindPopup('Clock and other features  - Jill Plater').addTo(mymap);
+  //var Marker26 =  L.marker([51.506890,0.272538]).bindPopup('HumberAve/Garron Lane Green   - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker26A =  L.marker([51.5049, 0.2663]).bindPopup('Ancient Sweet Chestnut ATI ID 9405   - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //var Marker26B =  L.marker([51.5092, 0.2691]).bindPopup('Ancient Sweet Chestnut ATI ID 9408   - Heather Hunter & Sonia Dewell ').addTo(mymap);
+  //L.geoJson({
+    //        'type':'Feature',
+      //      'properties': { 'name': "Chadwell" },
+        //    'geometry': {"type":"Polygon","coordinates":[[[0.379996, 51.496124],[0.380314, 51.488968], [0.373193,51.448364], [0.350899,51.448921], [0.357049,51.489240],[0.379996, 51.496124]]]}
+          //  }).addTo(map);
+  //var poly = L.polygon([[0.379996, 51.496124],[0.380314, 51.488968], [0.373193,51.448364], [0.350899,51.448921], [0.357049,51.489240],[0.379996, 51.496124]]).addTo(map);
+
+    </script>
+       </body>
+    

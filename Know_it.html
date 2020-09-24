@@ -1,0 +1,87 @@
+<head>
+    <title>Know it, Love it 49 Features</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin="">
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+    <div id="Features" ></div>;
+    <style> #Features { height: 95vh; width: 99vw}</style>;
+    <script>
+    var map = L.map('Features').setView([51.53,0.33 ], 12); //centred and zoomed to Thurrock
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+L.control.scale().addTo(map);
+L.marker([51.584441, 0.346759]).addTo(map).bindPopup('OLD HALL POND');
+L.marker([51.509469, 0.262836]).addTo(map).bindPopup('REMAINS OF TUDOR/JACOBEAN GARDEN CANALS');
+L.marker([51.510008, 0.263889]).addTo(map).bindPopup('REMAINS OF TUDOR/JACOBEAN GARDEN CANALS');
+L.marker([51.508278, 0.261649]).addTo(map).bindPopup('REMAINS OF A CIRCULAR TUDOR/JACOBEAN GARDEN FEATURE');
+L.marker([51.510600, 0.270300]).addTo(map).bindPopup('REMAINS OF MID C18 WALL FOR WALLED GARDEN');
+L.marker([51.514496, 0.266920]).addTo(map).bindPopup('LONG POND');
+L.marker([51.511400, 0.273600]).addTo(map).bindPopup('LONG POND');
+L.marker([51.510700, 0.268600]).addTo(map).bindPopup('ICE HOUSE WELL');
+L.marker([51.518611, 0.261944]).addTo(map).bindPopup('BRICK KILN WOODS BRICKMAKING STRUCTURE');
+L.marker([51.514300, 0.265300]).addTo(map).bindPopup('STENCH PIPE');
+L.marker([51.504722, 0.269167]).addTo(map).bindPopup('VETERAN SWEET CHESTNUT TREE');
+L.marker([51.504722, 0.266389]).addTo(map).bindPopup('ANCIENT SWEET CHESTNUT TREE');
+L.marker([51.506400, 0.270300]).addTo(map).bindPopup('THREE SWEET CHESTNUT TREES');
+L.marker([51.623000, 0.268000]).addTo(map).bindPopup('BELVEDERE MOUND');
+L.marker([51.609100, 0.195000]).addTo(map).bindPopup('PUMP HOUSE');
+L.marker([51.609500, 0.196800]).addTo(map).bindPopup('QUEEN ANNES WELL');
+L.marker([51.609500, 0.195700]).addTo(map).bindPopup('WALLED GARDEN WELL');
+L.marker([51.603938, 0.195681]).addTo(map).bindPopup('BEDFORDS BRIDLEWAY');
+L.marker([51.608300, 0.192800]).addTo(map).bindPopup('STONE STEPS');
+L.marker([51.613780, 0.245276]).addTo(map).bindPopup('THE MOATED SITE OF MAYLAND’S HOUSE');
+L.marker([51.617217, 0.240609]).addTo(map).bindPopup('FISH POND/Lake');
+L.marker([51.614646, 0.234836]).addTo(map).bindPopup('ROUNDEL MOUNT');
+L.marker([51.615285, 0.233974]).addTo(map).bindPopup('HORSESHOE PLANTATION');
+L.marker([51.616478, 0.235382]).addTo(map).bindPopup('PLEASURE GROUND');
+L.marker([51.611910, 0.237388]).addTo(map).bindPopup('STABLES AND WALLED KITCHEN GARDEN');
+L.marker([51.619216, 0.229947]).addTo(map).bindPopup('PRIORY AND NORTH LODGE');
+
+L.marker([51.543889, 0.247222]).addTo(map).bindPopup('PARKLANDS BRIDGE');
+L.marker([51.565506, 0.215661]).addTo(map).bindPopup('KISSING GATE');
+L.marker([51.549722, 0.451111]).addTo(map).bindPopup('CASHS WELL');
+L.marker([51.556800, 0.255000]).addTo(map).bindPopup('CLOCKHOUSE GARDENS');
+L.marker([51.477778, 0.330694]).addTo(map).bindPopup('19TH CENTURY BOUNDARY POST');
+L.marker([51.594700, 0.286100]).addTo(map).bindPopup('ALPINE GORGE and FILMY FERN CAVE');
+
+L.marker([51.478823, 0.327962]).addTo(map).bindPopup('THE SHELTER');
+L.marker([51.478886, 0.330572]).addTo(map).bindPopup('THE ROCKERY');
+L.marker([51.483446, 0.326676]).addTo(map).bindPopup('THE ELMS GARDEN RAILINGS');
+L.marker([51.483960, 0.326676]).addTo(map).bindPopup('THE ELMS CASCADE');
+L.marker([51.484060, 0.326001]).addTo(map).bindPopup('THE ELMS GROTTO');
+L.marker([51.480982, 0.332102]).addTo(map).bindPopup('NAME SIGN');
+L.marker([51.481131, 0.332717]).addTo(map).bindPopup('THE SHELTER');
+L.marker([51.480991, 0.332242]).addTo(map).bindPopup('HOLOCAUST MEMORIAL');
+L.marker([51.480920, 0.332225]).addTo(map).bindPopup('REJECT BRICK WALLS');
+L.marker([51.502500, 0.281000]).addTo(map).bindPopup('MILLARDS GARDEN');
+L.marker([51.506500, 0.276400]).addTo(map).bindPopup('BRICK PILLARS AND ENTRANCE GATES');
+L.marker([51.506900, 0.278000]).addTo(map).bindPopup('DIPPING POND');
+L.marker([51.506600, 0.278600]).addTo(map).bindPopup('JUMPING BLOCKS POSITIONED ON FORMER, CIRCULAR ROSE BEDS');
+L.marker([51.506000, 0.277800]).addTo(map).bindPopup('OLD PADDLING POOL');
+L.marker([51.506890, 0.272538]).addTo(map).bindPopup('HUMBER AVE AMENITY GREEN');
+//L.marker([51.506900, 0.272100]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.507100, 0.271900]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506900, 0.271600]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506700, 0.271700]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506700, 0.271500]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506600, 0.271100]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506600, 0.270900]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.506800, 0.270900]).addTo(map).bindPopup('MATURE TREES');
+//L.marker([51.511200, 0.284100]).addTo(map).bindPopup('BONNYGATE WOOD');
+L.marker([51.515180, 0.363730]).addTo(map).bindPopup('Bishop Bonners Palace');
+L.marker([51.516111, 0.283056]).addTo(map).bindPopup('The Garden Walls ');
+
+</script>
+    
+</body>
